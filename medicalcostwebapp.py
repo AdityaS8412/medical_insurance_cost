@@ -25,13 +25,13 @@ def main():
     
     age=st.text_input('Age of person:')
     
-    sex=st.text_input('Sex of person:')
+    sex=st.text_input('Gender of person[Male=0 ,Female=1]:')
     
     bmi=st.text_input('BMI of person:')
     
-    smoker=st.text_input('Smoker or not:')
+    smoker=st.text_input('Smoker or not:[Yes=0,No=1]')
     
-    region=st.text_input('Region of person:')
+    region=st.text_input("Region of person:['Southeast':0, 'Southwest':1 ,'Northeast':2, 'Northwest':3]")
     
     #code for prediction
     cost=''
